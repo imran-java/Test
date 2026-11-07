@@ -1,0 +1,53 @@
+Start
+Declare price_A,price_B,total_price
+Input   price_A
+Input   price_B
+Calculate total_price = price_A + price_B
+Display total_price
+End
+
+Start
+Declare  number
+Input    number
+If number MOD 2 = 0 Then
+    Display number "is an even number"
+Else Do
+    Display number "is an odd number"
+End If
+End
+
+Start
+Declare i
+For i = 1 to 100 Do
+    Display i
+End For
+End
+
+Start
+Declare number_C number_F
+Input   number_C
+Calculate number_F = (number_C * 9/5) + 32
+Display number_C "in Fehrenheit is" number_F
+End
+
+
+Start
+Declare year
+Input year
+If year MOD 4 = 0 Then
+    Display "Leap year"
+Else Then
+    Display "Not leap year"
+End If
+End
+
+Start
+Declare number, count, total
+Set total = 0
+Set count = 1
+While count <=5 Do
+    Input number
+    Calculate total = total + number
+End Whilw
+End
+
